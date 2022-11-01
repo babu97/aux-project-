@@ -1,4 +1,4 @@
-# link for video running in ther server ![](https://github.com/babu97/aux-project-/blob/main/aux-assignment.mp4)
+###  [link for video running in ther server](https://github.com/babu97/aux-project-/blob/main/aux-assignment.mp4)
 #!/bin/bash
 userfile=$(cat names.csv)
 PASSWORD=password
