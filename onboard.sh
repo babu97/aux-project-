@@ -5,7 +5,7 @@
 # The user that is being created also must also have a default home folder
 # Each user should have a .ssh folder within its HOME folder. If it does not exist, then it will be created.
 # For each user’s SSH configuration, We will create an authorized_keys file and add the below public key.
-
+### link for video running in ther server ![](https://github.com/babu97/aux-project-/blob/main/aux-assignment.mp4)
 #!/bin/bash
 userfile=$(cat names.csv)
 PASSWORD=password
