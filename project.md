@@ -1,8 +1,9 @@
 ###  [link for video running in ther server](https://github.com/babu97/aux-project-/blob/main/aux-assignment.mp4)
+```
 #!/bin/bash
 userfile=$(cat names.csv)
 PASSWORD=password
-
+```
 ### To ensure the user running this script has sudo privilege
     if [ $(id -u) -eq 0 ]; then
 
@@ -50,6 +51,7 @@ PASSWORD=password
         echo "USER CREATED"
 
 ### Generate a password.
+```
 sudo echo -e "$PASSWORD\n$PASSWORD" | sudo passwd "$user" 
 sudo passwd -x 5 $user
             fi
@@ -57,3 +59,4 @@ sudo passwd -x 5 $user
     else
     echo "Only Admin Can Onboard A User"
     fi
+```
